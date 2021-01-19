@@ -23,6 +23,10 @@ body{
     .ptb-sm{
         padding: 35px 0 35px 0;
     }
+    
+    .fourth-section{
+    background: #9a9b9c5e;
+    }
 }
 
 @media(min-width:768px){
@@ -88,6 +92,9 @@ body{
 
     .fourth-section{
     background: url(../img/Terrene-Dektop_Home-page-2-1.png) no-repeat left top / 100% 100%;
+    }
+    .future-section{
+        background: url(../img/circlebghomepage.jpg) no-repeat left top / 100% 100%;
     }
     .mx-lg-3{
         margin: 0 16px;
@@ -177,6 +184,7 @@ section, footer{
 .px-3{
     padding: 0 12px;
 }
+
 .m-0{
     margin: 0;
 }
@@ -407,7 +415,7 @@ section, footer{
     color: #002e47;
     font-size: 16px;
 }
-.about-container h2{
+.about-container h2, .future-header h2{
     font-family: 'Dosis', sans-serif;
     font-size: 36px;
     color: #333333;
@@ -419,3 +427,17 @@ section, footer{
     color: #002e47;
     font-weight: 400;
 }
+.fourth-section{
+    background: #f3f4f8;
+}
+.future-cols{
+    background: white;
+    height: 340px;
+    max-width: 343px;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+.future-cols-text{
+    font-size: 14px;
+}
+
