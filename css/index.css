@@ -11,6 +11,15 @@ body{
        max-width: 100%;
        width: 100%;
     }
+    .col-sm-2{
+        width: 20%;
+    }
+    .col-sm-10{
+        width: 80%;
+    }
+    .text-sm-left{
+        text-align: left;
+    }
     .mt-sm{
         margin-top: 144px;
     }
@@ -24,8 +33,23 @@ body{
         padding: 35px 0 35px 0;
     }
     
-    .fourth-section{
+    .future-section{
     background: #9a9b9c5e;
+    }
+    .pb-5{
+        padding-bottom: 45px;
+    }
+    .form-holder input{
+        width: 100%;
+        margin: 14px 0px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 10px;
+        background: #fff;
+    }
+    .col-sm-3{
+        width: 100%;
     }
 }
 
@@ -47,6 +71,27 @@ body{
     .mt-md{
        margin-top: 70px;
     }
+    .col-md-3{
+        max-width: 25%;
+    }
+    .ptb {
+        padding: 70px 0 70px 0;
+    }
+    .future-section{
+        background: #9a9b9c5e;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .form-holder input{
+        width: 41.66%;
+        margin: 12px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 10px;
+        background: #fff;
+    }
 }
 
 @media (min-width:992px){
@@ -61,7 +106,7 @@ body{
     }
 
     .col-lg-8{
-    width: 70%;
+    width: 66.66%;
     max-width: 100%;
     }
 
@@ -108,8 +153,23 @@ body{
     .py-5{
         padding: 48px 0;
     }
+    
+    .text-center{
+        text-align: center;
+    }
+    .form-holder input{
+        width: 41.66%;
+        margin: 12px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 10px;
+        background: #fff;
+    }
+    .col-lg-3{
+        max-width: 25%;
+    }
 }
-
 #myBtn {
     position: fixed;
     bottom: 10px;
@@ -171,7 +231,9 @@ section, footer{
 .p-0{
     padding: 0;
 }
-
+.py-3{
+    padding: 18px 0;
+}
 .py-4{
     padding: 28px 0;
 }
@@ -184,7 +246,12 @@ section, footer{
 .px-3{
     padding: 0 12px;
 }
-
+.pb{
+    padding-bottom: 12px;
+}
+.pb-3{
+    padding-bottom: 12px;
+}
 .m-0{
     margin: 0;
 }
@@ -197,9 +264,6 @@ section, footer{
     margin-right: auto;
 }
 
-.text-center{
-    text-align: center;
-}
 
 .text-white{
     color: white;
@@ -440,4 +504,54 @@ section, footer{
 .future-cols-text{
     font-size: 14px;
 }
+.form-section{
+    background: url(../img/ready-to-reimagine-bg.jpg);
+}
 
+.form-holder form{
+    width: 100%;
+}
+
+.form-header{
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+}
+
+form .form-input{
+    font-size: 14px;
+    font-weight: 500;
+    background: #e11b24;
+    border-radius: 30px;
+    border: none;
+    width: 164px;
+    height: 46px;
+    color: white;
+}
+
+footer {
+    background: black;
+}
+
+.icon i {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    line-height: 36px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+}
+
+.para {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.p {
+    line-height: 15px;
+}
+
+.b {
+    border-bottom: 2px solid orange;
+    width: 40px;
+}
