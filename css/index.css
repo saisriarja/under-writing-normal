@@ -167,7 +167,10 @@ body{
         background: #fff;
     }
     .col-lg-3{
-        max-width: 25%;
+        max-width: 20%;
+    }
+    .col-lg-5{
+        width: 40%;
     }
 }
 #myBtn {
